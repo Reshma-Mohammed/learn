@@ -1,0 +1,233 @@
+
+
+Day 1 : 
+~~~~~~~~~~~~~~~~~~~~
+1. For predicting the price of properties which technique would you use?
+               a. Regression                     (ANS)
+               b. Classification
+2. To find the minimum or the maximum of a function, we set the gradient to zero because:
+               a. The value of the gradient at extrema of a function is always zero                          (ANS)
+               b. Depends on the type of problem
+3. The most widely used metrics and tools to assess a classification model are:
+               a. Confusion Matrix                                       (ANS)
+               b. Mean Squared Error
+ 
+4. How do you handle missing or corrupted data in a dataset?
+               a. Scale the dataset.
+               b. Replace missing values with mean/median/mode                                        (ANS)
+
+5. LogLoss evaluation metric can have negative values
+               a. True
+               b. False (ANS)
+6. What is the ideal value of area under the ROC-AUC curve:
+               a. 1        (ANS)
+               b. Infinity
+7. Term used to describe the case when the independent variables in a multiple regression model are correlated is :
+               a. Correlation
+               b. Multicollinearity                          (ANS)
+8. he correlation coefficient of two quantities is 0.85, this means:
+               a. As the value of one attribute increases, the other one decreases.                         (ANS)
+               b. As the value of one attribute increases, the other one increases.
+
+9. We can get multiple local optimum solutions if we solve a linear regression problem by minimizing the sum of squared errors using gradient descent.
+               a. True
+               b. False                (ANS)
+10. Adding a non-important feature to a linear regression model may result in:
+               a. Increase in R-square                  (ANS)
+               b. Decrease in R-square
+11. A dataset contains customer ids and transaction dates . Each customer id can belong to multiple transaction dates . Which one of these codes will give first transaction date for each customer id 
+
+A. df.groupby(['custid']).sort_values(['trans_date']).nth(0)
+B. df.groupby(['custid'])['trans_date'].nth(0)
+C. df.groupby(['custid']).sort_values(['trans_date'])[0]
+D. df.sort_values(['custid','trans_date']).groupby(['custid']).nth(0)
+Answer : D
+
+
+
+12. Result of this statment df.loc[:,"a":'y']
+A. all the rows of the data frame and all the columns from 'a' to 'y'
+B. throws an error 
+C. only one column named 'a':'y', if its not in the data then keyerror 
+D. generates rows named 'a' to 'y'
+Answer : A
+
+
+13. Result of df['column'].value_counts()
+A. Includes count of missing values 
+B. Does not include count of missing values 
+C. Gives values in decreasing order of frequency 
+D. Gives values in increasing order of frequency 
+Answer : B , C
+
+
+14. which one of these will give a new column containing length of strings in the column 'char_col' 
+A. len(df['char_col']) 
+B. df['char_col'].len()
+C. df['char_col'].apply(len)
+D. None of The Above 
+Answer : D
+
+
+15. which one of these fills all missing values with median of columns in the data 
+A. df.fillna(df.median())
+B. for col in df.columns:df[col]=np.where(df[col].isnull(),df[col].median(),df[col])
+C. df.fillna(median)
+D. Df.apply(fillna(median))
+Answer : A,B
+
+
+16.Linear models can be used to extract only linear patterns from the data 
+A. True
+B. False 
+Answer : B
+
+Day 2 :
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+1.Decision trees can overfit:
+               a. True                 (ANS)
+               b. False
+ 
+2. Tree depth is a hyperparameter
+               a. True                 (ANS)
+               b. False
+3. Increasing the value of max_depth for decision trees can overfit the data:
+               a. True                 (ANS)
+               b. False 
+
+4. Which of the following algorithm are an example of ensemble learning algorithm?
+               a. Random Forest (ANS)
+               b. Decision Tree
+5. Which of the following is a valid criterion for tee splitting?
+               a. Gini Index                      (ANS)
+               b. Absolute Difference
+6. Which of the following sentence is FALSE regarding regression?
+               a. It discovers causal relationships.           (ANS)
+               b. It is used for prediction.
+7. Regression trees are often used to model ________ data:
+               a. non-linear      (ANS)
+               b. Linear
+
+8. This technique associates a conditional probability value at each data instance:
+               a. SVM
+               b. Logistic Regression                     (ANS)
+9. Below are the 8 actual values of target variable in the train file :[0,0,0,1,1,1,1,1] What is the entropy of the target variable?
+               a. -(5/8 log(5/8) + 3/8 log(3/8))                  (ANS)
+               b. 5/8 log(3/8) – 3/8 log(5/8)
+10. Random Forest is an example of a 
+A. Bagging algorithm 
+B. Boosting algorithm 
+C. Unsupervised Learning Algorithm  
+D. None of the Above 
+Answer : A
+
+11. Random Subsetting of features in random Forest helps with 
+A.  Alpha 
+B.  p-value
+C.  F1-Score
+D. Making individual trees less correlated 
+Answer : D
+
+12. Which of one these models will be computationally cheaper [with fully grown trees]
+A. Random Forest
+B. Bagging Regressor
+C. Xgboost
+D. Extra Trees
+Answer : D
+ 
+13. which one of these can not be used as a performance measure for a bianry classification problem 
+A. AUC Score 
+B. Briar Score 
+C. F1 Score 
+D. Tree Size
+Answer : D
+
+Day 3 : 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Which one of these can be used to convert text data to numeric features
+A. Tf-idf
+B. Dummies 
+C. Count Vectorizers
+D.None of the Above 
+Answer : A,C
+
+2. Which one of these can be used to get an interpretable version of a complex model
+A. LIME
+B. Surrogate Trees
+C. Partial Independence Plots 
+D. Betas
+Answer : B
+
+3. Which one of these can be used for local inference 
+A. LIME
+B. Surrogate Trees
+C. Partial Independence Plots 
+D. Betas
+Answer : A
+
+4. different thresholds; to predict hard classes from a probability score model ;have different AUC scores 
+A. True
+B. False 
+Answer : B
+
+5. Between F3 and F7 Score [ specific case of  score ]
+A. F3 favours precision less than F7
+B. F7 favours recall less than F3
+C. F3 and F7 both favour specificity equally 
+D. None of the above 
+Answer : D
+
+6. Which of these relationships between response and predictors are not easily captured by tree-based algorithms [ RF, gbm, XGboost etc ]:
+A. Polynomial 
+B. Inverse
+C. Exponential
+D. Log 
+Answer : B
+
+7. What numeric representation makes most sense for days of week 
+A. Creating dummies for each day
+B. Creating sin and cos columns applied on (1,2,3,4,5,6,7) where these numbers are integers assigned to (Sunday , Monday .... )
+C. Assigning them numbers (1,2,3,....)
+D. None of the Above 
+Answer : A
+
+
+8. In which of the following cases will K-means clustering fail to give good results? 1) Data points with outliers 2) Data points with different densities 3) Data points with nonconvex shapes
+               a. 1 and 2
+               b. 1, 2 and 3 (ANS)
+
+9. Which of the following is not a supervised algorithm?
+               a. Logistic Regression 
+               b. K Means Clustering (ANS)
+
+10. Dimension reduction is:
+               a. the process of reducing the size of the feature matrix (ANS)
+               b. Removing the bias variance trade off.   
+
+11. This clustering algorithm initially assumes that each data instance represents a single cluster:
+               a. Agglomerative   (ANS)  
+               b. K-means  
+
+12.  What is a centroid:
+               a. the point at the center of the cluster.                 (ANS)
+               b. point at the circumference of the cluster.     
+
+13. Usually for lower population coverage lift is high 
+A. True
+B. False
+Answer : A
+
+14. Which of these algorithm can be used for local inference of any Machine Learning model result
+A. Surrogate Trees
+B. LIME
+C. partial dependence plots 
+D. None of the Above 
+Answer : B     
+
+15. 12. Both PCA and t-sne are dimensionality reduction techniques:
+               a. True                 (ANS)
+               b. False
+ 
+
+                      
