@@ -1,0 +1,93 @@
+API - Application programming Interface - Any application which is contacted uing program from an interface.
+Soap and Rest Apis
+Webhooks
+Webservices
+
+
+First the request is authenticated and then authorize 
+Communications within two small features/functions are called microservices.
+
+All the Webservices are APIs but not sll the APIs are Webservices. Internet is used to request a response called a webservices. However, There can be requests internally from servers to request info, which do not need internet or webservices. 
+
+Microservices are modules within a program. 
+example Amazon - Entire site is a program, a set of services - catalogues, customer care, orders, content writers of the product, each of these is a microservice.
+
+Open APIs different from Rest APIs
+
+Example: whatsapp - Application; chat or call - Prgoram, Chat window - interface.
+
+Application - server
+Program - module on that application
+Interface - the location/place where we interact the application
+
+Simple API(straight forward api/1 level - request-response) and Complex APIs (one api redirecting to another api)
+
+The standards of using API are Json, Java
+
+Types of APIs:
+1. Soap - simple object access protocol - are obselete now
+Soaps require xml
+message format defined through WSDL (web services description language file.
+
+2. Webhooks - example alerts 
+
+3. Rest Apis
+Representational state transafer
+Uses HTTP as a transport protocol
+Architectural Styles
+RESTfulAPIs
+Message format is JSON, Javascript Object Notation 
+
+OpenAPI Specifications
+Swagger - Tony - nows its OpenAPI Specification  
+
+standard specification of the APIs easy to consume or collabrate with other language
+
+JSON - JavaScript Object Notation
+
+Data Structures 
+ - Strings - enclosed in double quotes "5" - will be a text
+ - Numbers - integers 0-infinity
+ - Boolean - True/False
+
+Arrays: 
+ - Lists - list of elements (numbers, colors always in [] square brackets
+ [1, 4, 789, 97]
+ ["rose", "daisy", "jasmine"]
+ 
+Objects: flower brackets
+ - JSON's dictionaries
+ - Key Value Pairs
+   example, {"abhi" = 1, ...."yuva" = 26} in this, key has a value
+
+Nesting: If can define more key values and other elements by nesting it. 
+{"abhi" = 1,"profession" = "job" ...."yuva" = 26}
+
+JASON
+
+{
+"product":
+	{
+	"title": "Samsung",
+	"series": "S series",
+	"model": ["s7", "S9", "S10"]
+	}	
+}
+
+check in json formatter on google or change language to json (check course on udemy)
+
+
+Swagger.io 
+
+
+
+
+
+
+
+
+
+
+
+
+
