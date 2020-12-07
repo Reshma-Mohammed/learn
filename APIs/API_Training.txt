@@ -1,9 +1,9 @@
-API - Application programming Interface - Any application which is contacted uing program from an interface.
+API - Application programming Interface - Any application which is contacted using program from an interface.
 Soap and Rest Apis
 Webhooks
+
 Webservices
-
-
+Small application/computing interface that would enable interction between 2 applications. 
 First the request is authenticated and then authorize 
 Communications within two small features/functions are called microservices.
 
@@ -35,7 +35,7 @@ message format defined through WSDL (web services description language file.
 Representational state transafer
 Uses HTTP as a transport protocol
 Architectural Styles
-RESTfulAPIs
+RESTful APIs
 Message format is JSON, Javascript Object Notation 
 
 OpenAPI Specifications
@@ -63,7 +63,7 @@ Objects: flower brackets
 Nesting: If can define more key values and other elements by nesting it. 
 {"abhi" = 1,"profession" = "job" ...."yuva" = 26}
 
-JASON
+JSON
 
 {
 "product":
@@ -81,6 +81,319 @@ Swagger.io
 
 
 
+{
+"city": ["Hyderabad", "Bengaluru", "Mumbai"],
+"State": ["Telangana", "Bengaluru", "Maharastra"],
+"population": [100000, 200000, 300000],
+"coast city":["true", "false"]
+}
+
+
+
+[
+{
+	"city": "Hyderabad",
+	"state": "Telangana",
+	"population": 1532900,
+	"coast city": "false"
+}, 
+{
+	"city": "Bengaluru",
+	"state": "Karnataka",
+	"population": 2932900,
+	"coast city": "false"
+},
+{
+	"city": "Mumbai",
+	"state": "Maharastra",
+	"population": 3832900,
+	"coast city": "true"
+}
+]
+
+Restful API - rtion State transfer protocol
+it relies on stateless server and client-server protocol (http/https)
+
+structure for Request: 
+
+https://www.abcd.com/resources/{query/path/parameters}
+
+
+ex: https://www.google.com/images/search?q=kittens
+
+q = key
+kittens = value
+
+(check screenshot)
+end point: address where api is hosted on server (the entire url, along with parameters) 
+https method : protocol commonly used to communicat with rest api such as get(request), post(create), put(update), delete (delete)
+resources: resources represent api/collection which can be accessed from server
+google: api
+parameters:
+ - Query parameter: data given to filter the request responses 
+ - path parameter: points to specific resources 
+
+HEADERS: meta-data associated with API request and response. gives additional information about api  
+
+METHODS:
+- Get(request or read): to extract information 
+- Post(create): 
+- Put(update): 
+- Delete(clear): 
+- patch(patch relase/ 
+
+CRUD  - create, read, put, delete 
+
+responses - http sttaus codes (more are there)
+200 - successful
+201 created 
+403 forbidden-- bad request
+check IBM site 
+
+AUTHORIZATION AND AUTHENTICATION
+
+authorization - proving who you are
+authentication - granting access
+types of authorization:
+
+No Auth: no auth, no authen ex, google
+basic auth: yes authen, no auth 
+
+request-method-response
+
+shinobi 
+try for no auth and basic auth
+
+check datadog api docs
+
+
+HOW TO WRITE APIS
+
+description
+
+mention mandatory or required parameter in the api
+
+throtling limit - how many request does an application can take
+
+Go to zomatoapi developer
+
+
+UD notes:
+
+API cotains the following 5 parts:
+ex: POST http://api.example.com/user?source=ios&device=ipad
+
+Accept: application/jsoncontent-type: application/jsoncontent-type
+{
+"name":"Resh",
+"email":"res..."
+}
+
+- Method: Post
+- URL:http://api.example.com/user
+- Parameters: source and devices
+- Headers: Accept: application/jsoncontent-type: application/jsoncontent-type
+- Body: {
+"name":"Resh",
+"email":"res..."
+}
+
+parts of URL:
+
+ex: https://api.example.com/v2/user
+
+in this:
+- scheme: https
+- host: api.example.com
+- base path: /v2 
+- path: /user
+
+METHODS
+
+Get, put, post, delete, patch etc
+
+Parameters: 
+ex: https://api.example.com/v2/user/{user-id}/connections?degrees=2
+
+path parameter: {user-id}
+query parameter: degrees
+
+Security: Authentication and authorization
+can be: None, Basic Auth, API Key, OAuth 
+
+Documentation: human readable decription of elements that can be used for generating documentation 
+add 'description' for:
+- the Api
+- each operation (path and method)
+- each parameter
+- each response elements
+
+YAML - Ain't markup language
+
+- It is a structured data format for Open API Specification uses
+- used for data , not for space 
+
+Key/Value pairs:
+
+Key: indicated by a Colon followed by a space
+ex: date: 2017-08-06
+
+levels: indicated by white space indentation
+ - cannot be a tab - only use spaces
+ 
+ in xml - open and close tags <l1></l1>
+ in Json - brackets { }
+ YAML - name:
+           firstname: peter
+		   lastname: morris
+		   
+Types:
+are determined from context
+ex: part_no: A4786 (string)
+description: Photoresistor (string)
+price: 1.56 (float) 
+quantity: 4 	(interger) 	   
+		   
+ quotes: in general not necessary
+ exception: something is inetrpreted as number or boolean
+ ex: price: 11.47
+ version: "11.56"
+ 
+ Lists: indicated with dash (-)
+ ex: cart: 
+    - part_no: A5789
+	  description: photoresistor
+	  price: 1.47
+	  quantity: 8
+	  
+	- part_no: A5785
+	  description: photoresistor
+	  price: 1.46
+	  quantity: 3
+ 
+here, cart has 2 items in the list (2 parts)
+
+other symols: 
+| (pipe)  - two show stext in 2 different lines
+> -  to merge two sentences into 1 
+# - comments, will be ignored
+$ref - references
+
+Schema:
+$ref: '#/definitions/user'
+
+....
+definitions:
+  user:
+    required:
+	  - username
+	  -id
+
+
+
+Example practice on Zomato APIs
+
+End point: https://developers.zomato.com/api/v2.1/categories
+
+description: Enables you to search for categories
+ 
+
+
+
+
+[
+   "Music playlist",
+   {
+      "Playlist 1":"Rock",
+      "Artist":"Edward Janes",
+      "Album":"Black"
+   },
+   {
+      "Playlist 2":"Carnatic",
+      "Artist":"M.S.Swami",
+      "Album":"Swara"
+   },
+   {
+      "Playlist 3":"Jazz",
+      "Artist":"Jessica Carl",
+      "Album":"Time Out "
+   }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://aninditabasu.github.io/indica/index.html
+
+https://sheetlabs.com/IND/rv, for gods, poets, and meters
+
+get method only 
+
+https://talentondemand.deloittenet.deloitte.com/apps/#!/my-information/certification/
+
+
+margin: 6pt 0in 7.5pt 0.5in
+To navigate to this tab, go to
+Solvas - Asset Mgt Customers, Client Support, Solvas - Compliance Customers
+
+<p>&nbsp;</p>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="background-color: black; padding: 5px;"><img style="align: baseline;" title="" src="sys_attachment.do?sys_id=1193b32fdbfa3e0088d3dbbb5e961992" alt="" width="224" height="42" align="baseline" border="" hspace="" vspace="" /></td>
+</tr>
+<tr>
+<td>
+<p align="left">&nbsp;ServiceNow Knowledge Article | December 2020</p>
+</td>
+</tr>
+<tr>
+<th style="text-align: left;">
+<p><img style="align: baseline;" title="" src="redaction2.pngx" alt="" width="89" height="89" align="left" border="" hspace="" vspace="" /></p>
+<p><span style="font-family: arial; font-size: 14pt;"><br /><span style="font-size: 24pt;">Loan </span></span></p>
+</th>
+</tr>
+<tr>
+<td style="padding: 5px;">
+<p><span style="font-family: verdana; font-size: 10pt;">&nbsp;</span></p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+
+<ol style="margin-bottom: 0in; margin-top: 8px; list-style-position: inside;" start="6"
+<li style="margin: 6pt 0in 7.5pt 0px; background: white; font-size: 12pt; font-family: Calibri, sans-serif; color: black;">
+
+INC0743891
+KB0011756
 
 
 
