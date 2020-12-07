@@ -1,0 +1,77 @@
+steps for removing conflits in git push
+
+git status
+git merge origin/[branch to be merged]
+
+open IDE 
+Resolve
+
+git commit
+
+git push
+
+
+2. how to git revert 
+git statusgit checkout filename
+git revert commitid (available on git branch 
+git push
+
+3. Git Reset (undo changes)
+git diff
+git add
+git commit
+git addgit commit
+git status
+git reset filename--hard
+
+4. Git Stash
+to switch branches without losing any work - this temporarily shelves changes 
+
+git status
+git stash
+git checkout branch
+git push
+git stash apply 
+update on ide
+git commit
+
+
+Cherry Picking
+to pick data from other branches
+
+git checkout branchname
+264113
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
