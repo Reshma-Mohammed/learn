@@ -369,7 +369,7 @@ Solvas - Asset Mgt Customers, Client Support, Solvas - Compliance Customers
 </tr>
 <tr>
 <td>
-<p align="left">&nbsp;ServiceNow Knowledge Article | December 2020</p>
+<p align="left">&nbsp;ServiceNow Knowledge Article | January 2021</p>
 </td>
 </tr>
 <tr>
@@ -395,12 +395,18 @@ Solvas - Asset Mgt Customers, Client Support, Solvas - Compliance Customers
 INC0743891
 KB0011756
 
+<ul style="list-style-position: inside;"><li><span style="font-family: Calibri; font-size: 14pt;">Release Notes XXXXXXXXX. (Number)</span></li></ul>
 
 
+1.28.0 - KB0014598
+2.0.10 - KB0014597
+2.0.11 - KB0014570
+
+157612
 
 
+{{#workItems}}
+ - {{{ field 'System.Id' }}} - {{{ field 'DeloitteFinTech.SolvasScrum.ReleaseNotes'}}}
+{{/workItems}}
 
-
-
-
-
+https://www.voicebooking.com/en/free-voice-over-generator
