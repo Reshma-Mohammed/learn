@@ -65,7 +65,7 @@ https://www.linkedin.com/learning/learning-data-analytics-2
 BI
 https://becurious.edcast.eu/journey/ECL-c12036b4-b62d-482d-8eb7-a8c5515957b5
 
- - keep a tab on PL
+ - keep a tab on PL - 169hrs
  - Raise a concern on EPFO
  - create LXMe spreadsheet
  - SSR Shetty - 9980195919 - IT filing 
@@ -78,16 +78,55 @@ animaker
 
 ReviewMyElearning - for reviews using scorm
 
+SAM KT
 
+when a company borrowed all the money, the company will take a full hit of lose when there is a financial loss.
+when many bank funds to invester, they alll bear the loss. 
+This is called syndication
 
+when 20banks lending to institution, how to track the share and track of money. Ministry of agent or agent bank will keep the track in between. Wells is an example X- 5mn, Y- 5mn, Z- 5mn, ho wmuch intersret for each of the person, the date for paying interest, sends notifications, collects money and distribute to the 
 
+Bonds - monthly/yearly - the owner will only recieve the interest for the time of loan. 
+software - tracks this nuisance of loans in syndicate
+Portfolio Managers used to sign bonds and make it work for bonds. not clear, complex. Solvas Suit came out for this purpose. 
 
+ Pro-Rata - the rate it which you own an amount at the total amount
+ Transactions 
+ 
+ Home 
+Facilities - Loans are called facilities
+Issues - other asset types that are not loans, equities and bonds are examples 
+Issuers - company, ex: Tesla, Ford that can have different roles such as Bank, portfolio or lender, borrower
 
+Create Issuer, Add Facility, Borrower, CUSIP, Facility Info, 
 
+Delayed Draw Loan - 
+Revolving Loan - credit card 
+Term Loan - buying at showroom,at a fixed rate
+  
+JUrisdiction  - calendar and changes with locations, holidays of that area. 
 
+Prime - what bank lends to best customer, fixed rate, interest at quarterly basis
 
+LIBOR- contract between 2 parties thta has start date and end date. The interest based on the contract. Prepayment penalty fee for the change in interest will be paid too. 
 
+spread -  depends at a credit risk
+higher risk  - high interest
 
+min. Index Rate - 
+max Index Rate - 
 
+Loans - contract, 
 
+Commitment Reduction Schedule
 
+amortization - future EMI payment Installments 
+
+Portfolio - Which other posrtfolio will partcipate 
+
+IMPORTANT!
+
+CIFC - for bank jobs in Canada - For MFs
+https://www.ifse.ca/courselist/canadian-investment-funds-course-cifc/ 
+
+CSC - for Bonds/ STocks

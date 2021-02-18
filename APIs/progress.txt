@@ -1,5 +1,5 @@
 
-
+1x1 2/3
 Digitize 
 
 - Spread Change Video
@@ -18,6 +18,31 @@ Tax Form Validation:
 Other Work
 
 - Standard Template article 
+
+
+1x1 2/17
+
+Digitize 
+
+- Updates to Help article
+- Release Notes for 1.29.0 and 2.0.11 in progress.
+- Feature articles related to Multi-Value field is published
+
+
+SAM:
+
+- Started Phase 2 migration
+- Creating Release Notes articles
+- Updating existing RN articles 
+- 6.7.2 features and release notes 
+
+Tax Form Validation:
+
+- Client Reports article is in reviews
+
+
+
+
 
 RTC View
 Reasons for Transaction failures
