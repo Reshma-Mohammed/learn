@@ -20,13 +20,15 @@ Other Work
 - Standard Template article 
 
 
-1x1 2/17
+1x1 3/4
 
 Digitize 
 
 - Updates to Help article
-- Release Notes for 1.29.0 and 2.0.11 in progress.
+- Release Notes for 1.29.0 and 2.0.11 are created.
 - Feature articles related to Multi-Value field is published
+- Feature article on Updating Bulk edit using multi-value field is in progress. 
+- Work on WSO mockups is in progress
 
 
 SAM:
@@ -38,14 +40,21 @@ SAM:
 
 Tax Form Validation:
 
-- Client Reports article is in reviews
+- Client Reports article is approved. 
 
 
+Other Work
 
+- Business Requirements Document 
 
 
 RTC View
-Reasons for Transaction failures
+Reasons for Transaction failures - Data Extraction Issues tab 
 2 new templates/mockups
 Changes in existing paydown, IP transactions
 
+https://deloitte-fintech.visualstudio.com/Solvas/_wiki/wikis/Solvas%20Digitize%20Docs/633/Incoming-Documents
+
+firm contribution
+
+how did i do? how could i do better?
