@@ -23,7 +23,7 @@ Interface - the location/place where we interact the application
 Simple API(straight forward api/1 level - request-response) and Complex APIs (one api redirecting to another api)
 
 The standards of using API are Json, Java
-
+5
 Types of APIs:
 1. Soap - simple object access protocol - are obselete now
 Soaps require xml
@@ -32,7 +32,7 @@ message format defined through WSDL (web services description language file.
 2. Webhooks - example alerts 
 
 3. Rest Apis
-Representational state transafer
+Representational state transafer N' MKJIM M KJJIMN  JHU8NH MKO0 JMK9IOI N HR GHBGTI
 Uses HTTP as a transport protocol
 Architectural Styles
 RESTful APIs
@@ -360,6 +360,9 @@ https://talentondemand.deloittenet.deloitte.com/apps/#!/my-information/certifica
 margin: 6pt 0in 7.5pt 0.5in
 To navigate to this tab, go to
 Solvas - Asset Mgt Customers, Client Support, Solvas - Compliance Customers
+This section contains the following topics: 
+style="border: 2px solid black; align: baseline;"
+<span style="color:#0000ff"> 
 
 <p>&nbsp;</p>
 <table style="width: 100%;">

@@ -130,3 +130,14 @@ CIFC - for bank jobs in Canada - For MFs
 https://www.ifse.ca/courselist/canadian-investment-funds-course-cifc/ 
 
 CSC - for Bonds/ STocks
+
+
+Video Content adding Remote System
+
+Windows+R - \\10.25.30.206\TechWriting  and Pin the site
+
+
+
+
+
+

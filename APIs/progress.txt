@@ -19,6 +19,7 @@ Other Work
 
 - Standard Template article 
 
+-------------------------------------------------------------------
 
 1x1 3/4
 
@@ -47,6 +48,80 @@ Other Work
 
 - Business Requirements Document 
 
+---------------------------------------------------------------
+
+1x1 3/17
+
+Digitize 
+
+- Updates to Help article 
+- Release Notes for 1.30.0 is created and published.
+- Feature article for ability Bulk edit multi-value field is published. 
+- Work on UBS, WEL mockups is in progress
+
+
+SAM:
+
+- Started Phase 2 migration
+- 6.7.2 features and release notes
+- SAM Help article is in progress  
+
+
+
+Other Work
+
+- Spotify Video Discussion
+- Video Testing
+- Creative Team for Logo Designing   
+------------------------------------------------------------------------
+
+1x1 4/16
+
+Digitize 
+
+- Release Notes for 1.31.0 is updated and published.
+- Feature article work 6 features will start in the next week. 
+- Work on NTX mockups will start in the next week.
+
+
+SAM:
+
+- Created and published Development Plans article. 
+- SAM Help article updates for 3rd and 4th level articles is in progress
+- SAM Version History and cross-references work is in progress 
+
+
+
+
+Other Work
+
+- Digitize Teams Wiki content migration 
+
+--------------------------------------------------------------------------
+
+1x1 5/21
+
+Digitize 
+
+- Created and published Release Notes for 1.32.0
+- created feature articles for 4 features on aggregation calculation blocks, incoming feeds, Boolen Yes/No, multi-value fields. 
+- Work on NTX mockups is completed
+
+SAM:
+
+- SAM Help article updates for 3rd and 4th level articles is in progress
+- SAM Version History and cross-references work is in progress 
+
+
+Other Work
+
+- Digitize Teams Wiki content migration has started
+- Will follow up on PIK/CI changes 
+
+setup a bi-weekly/monthly call with TW and Kennetha
+
+
+-----------------------------------------------------------------------------
 
 RTC View
 Reasons for Transaction failures - Data Extraction Issues tab 
