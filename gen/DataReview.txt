@@ -1,0 +1,16 @@
+
+Multiple Spreads - KB0014504 
+
+Deal CUSIP: 87654PAA2 
+Deal ISIN: US87654PAA21
+Facility CUSIP: 87654PAB1
+Facility ISIN: US87654PAB12 
+
+
+
+Release Notes:
+
+ - Double Quotes for Fields, Screens, Tabs, and features
+ - Check if all the items have defect/feature ID at the end
+ - The Navigation path with 2 carats (_>>_) spaces before & after, and in Italics
+ - 

@@ -119,6 +119,36 @@ Other Work
 - Will follow up on PIK/CI changes 
 
 setup a bi-weekly/monthly call with TW and Kennetha
+-----------------------------------------------------------------------------
+
+1x1 6/24
+
+Digitize 
+
+- Created and published Release Notes for 1.33.0
+- Created feature articles for IMY Rates for GD360 use-case,  
+- Worked on LIQ mockups, Digiflow tasks
+- Work on 1.34.0 will start soon 
+
+SAM:
+
+- Closed all the change requests in the user manual articles
+- Created Portfolio Snapshots article 
+- Created 3 other article in missing sections
+- Created RFR Roadmap article 
+- coordinating for 6.7.3.0 release work  
+
+Other Work
+
+- Digitize Teams Wiki content migration is in progress. Updated the progress to Chris on the Teams channel and coordinating for L2 reviews 
+
+- As a followup from previous call, organizing the monthly call with TW team and Kennetha to discuss the work items and other tasks
+
+- Coordinating the planning calls with BA group to correctly create the feature and defect items for Digitize Deployments. 
+
+- Created Wordmarks/Logos for all the Solvas products as per Deloitte standards and sent to Chris for reviews. 
+
+- Showed interest to be part of BA COP and their Innovation section 
 
 
 -----------------------------------------------------------------------------

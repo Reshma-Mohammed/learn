@@ -372,7 +372,7 @@ style="border: 2px solid black; align: baseline;"
 </tr>
 <tr>
 <td>
-<p align="left">&nbsp;ServiceNow Knowledge Article | March 2021</p>
+<p align="left">&nbsp;ServiceNow Knowledge Article | June 2021</p>
 </td>
 </tr>
 <tr>
@@ -393,7 +393,10 @@ style="border: 2px solid black; align: baseline;"
 
 
 <ol style="margin-bottom: 0in; margin-top: 8px; list-style-position: inside;" start="6"
-<li style="margin: 6pt 0in 7.5pt 0px; background: white; font-size: 12pt; font-family: Calibri, sans-serif; color: black;">
+<li style="margin: 6pt 0in 7.5pt 0px; background: white; font-size: 14pt; font-family: Calibri, sans-serif; color: black;">
+
+Table margin: Add "margin-left: 50px;" in <table> tag
+Table background color code: background-color: #dbdbdb - grey, white - #ffffff, black - #000000, green - #e2efda
 
 INC0743891
 KB0011756
@@ -406,7 +409,7 @@ KB0011756
 2.0.11 - KB0014570
 
 157612
-
+prometheus 
 
 {{#workItems}}
  - {{{ field 'System.Id' }}} - {{{ field 'DeloitteFinTech.SolvasScrum.ReleaseNotes'}}}
