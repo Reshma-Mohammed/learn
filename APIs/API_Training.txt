@@ -372,7 +372,7 @@ style="border: 2px solid black; align: baseline;"
 </tr>
 <tr>
 <td>
-<p align="left">&nbsp;ServiceNow Knowledge Article | June 2021</p>
+<p align="left">&nbsp;ServiceNow Knowledge Article | July 2021</p>
 </td>
 </tr>
 <tr>

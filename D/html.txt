@@ -1,4 +1,4 @@
-To Try:
+HTML
 
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query
 
@@ -14,3 +14,202 @@ CBAP
 https://techcanvass.com/blogs/CBAP-Study-Guide.aspx
 
 https://www.innovativeprojectguide.com/cbap/
+
+https://www.my-mooc.com/en/mooc/uipath-business-analyst-training/
+https://www.my-mooc.com/en/mooc/business-analyst/
+https://www.guru99.com/business-analyst-tutorial-course.html
+
+
+Other work
+
+https://learndigital.withgoogle.com/digitalunlocked/course/digital-marketing
+https://knowledgeenthusiast.com/2021/05/02/15-best-digital-marketing-certifications/
+https://docs.microsoft.com/en-us/learn/certifications/data-analyst-associate/
+https://www.simplilearn.com/business-analyst-certification-training-course#what-business-analysis-areas-are-covered-in-the-babok-guide
+
+https://gpslearning.deloitte.com/SitePages/index.aspx#/home
+
+
+https://idratherbewriting.com/learnapidoc/pubapis_docs_as_code.html 
+https://idratherbewriting.com/learnapidoc/index.html
+
+
+IL
+code - 2135
+
+German/ireland/newzealand/
+
+Apply for any Masters course
+learn German @ https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html 
+Give A1 test and pass
+Apply for either Study/ Working Visa
+
+
+BI
+
+Data Source - the source from where the data is quiried/ brought into BI - SQL, Local, SharePoint etc
+Datasets - The information in the imported files. ex: tables in the excel, tables from sql database
+
+Once the table/Data is imported to BI, you can model the data as follows:
+1. Reduce the data with query editor 
+  - cleanup of the data is necessray because o fthe way data has been received. 
+  - First fetch/Import a dataset from any source. For example, import tables from Wikipedia. (Reduce.pbix) 
+  - Using Transform Data (query editor in new versions?), reduce the data in the table by deleting unnecessary rows, clean up of null values etc. 
+  - Rename the reduce table name 
+  
+2. Trasnform the data - Filter, Set Data Type, Replace Values using Transform data option, cleanup the tables
+  - Remove null rows (use Transform census .xls)
+  - replace null with 0 (use Replace Values option)
+  - Replace the data type (decimal, whole number, date type etc)
+  - use sort for filtering the data in some order 
+  
+3. Transform Data - Unpivot, text and number columns
+  - Unpivot the columns to create visualizations/datasets with only limited data. by removing unwanted columns. 
+  - Use Transform census.xls 
+  - Select key column, right-click > move > to the begenning
+  - Unpivot the pivot table. choose Key, Country and Admitted year and go to tranform tab > unpivot columns > unpivot other columns  
+  - change the new column name , census and population 
+
+4. Insert Custom Columns
+  - If there is a excel sheet with too many tabs/pages, and you want to have a single table out of thhat data then you can create a custom column and merge the selected page into an existing page in Tranform mode(benefits: merge data without disturbing the data in original). Finally, you can rename the new page as new page with in the excel as countries in the next step, append. (use custom columns page for practice) 
+  - Select a country (ex: Africa table) remove status and flag columns, move key to begenning, select the last column click cutom column, name the column to Continent and add "<country>" (in double quotes) 
+
+5. Append Data to a Query
+
+  - To combine all the individual country data from custom column to append in one sheet 
+  - Select custom columns page, go to transform data, select a country, duplicate the table, rename it to All Countries table. 
+  - in All Countries, go to Home > Append Quiries > choose 2 table (when there are 2 pages to merge) or 3 or more tables (when there are more) to merge at once.  
+  - if necessary, select ascending on country column to show all country data from A-Z format. 
+
+6. Add index column
+
+  - Once appended, all the key values start from 1-x for each country, so adding an index column will create new key column. 
+  - Index column will add a new key column 
+  - Remove old key column from All Countries table.
+  - In All countries > Transform data, select the Country or Name column, go to Add Column tab > Index Column in General ribbon > from 1. 
+  - rename new index column to key and move it to the begenning. 
+
+7. Clean up data
+
+  - You can clean the existing data available or add additional datasets in this step. In this example, 2 new datasets are added. 
+  - ie., To All Countries table, adding Population by Country and Population Growth Rate datasets from . 
+  - change the column type from text to decimal and replace -- with minus - in the population growth rate column
+
+8. Relate tables in the Model
+  - Helps in relating several tables to each other by a relation , ex., country in one table to other. 
+  - use all countries, population by growth, population Growth rate for relating.
+  - Go to Model tab. select only these 3 tables not other tables. 
+  - remove existing.
+  - Go to Manage Relationships > New > 1:1 as cardinality, select name and countru in population by growth, population Growth rate tables. 
+  - Repeate same to create a relation between population by country and all country table, select  country as a relation.
+  - save the file.
+
+9. Merge Data
+
+  - Use thi soption to merge the data from several datasets into new datasets. All pages/tables to new table. 
+  - You can merge based on a relation, for example, by country 
+  - You can choose to display only some columns or all the columns on merge 
+  - Select a table > Transform Data > Merge Queiries > Merge queiries to new
+  - Select All countries and population by countries, select country as relation and merge. A new column is added.
+  - Select only population, exclude country as the all countries table already has it, deselect rank also, not necessary.
+  - merge with other table too new merge dataset.
+  - rename the new merged file as "Countries and Population".   
+
+
+10. Show and Hide queries
+
+  - Use this options to show or hide the queries/ datasets are pulled as quieries in BI.
+  - These queries are the dataset names that appear on right pane in Tables tab. for example, all countries, all 7 individual country data, population growth, population by countries tables are all referred as quiries.
+  - we can hide/show such data to the client whom we share the data with. 
+  - You can show/hide it from Tables tab or Model tab on left pane. preferred from relation model in the Model tab. 
+  - In Relationship Model, select an individual dataset, click menu icon (3buttons), select Hide in Report View. 
+  - IN Report tab/view, only data that appears is from "Countries and Population". 
+
+
+11. Use Lookup tables in dataset
+
+  - Use this option for adding additional lookup data, such as geospatial data like dates, pincodes, latitude and longitude data to the "Countries and Population" dataset. 
+  - Use Lookup.pbix file for this example
+  - fix the zipcodes in catalog request and zip lat-long queries in transform data by select zipcode column change the type to text and Save.  
+  - Go to Model tab on left pane, select manage relationshiip for auto detect, if not found, return to model window.
+  - select Req dat and drop on TheDate, zip to zipcode. 1tomany relation is shown with asterisk. 
+
+
+12. Create Visualization  
+
+12.1  Using Report View
+
+  - use visuals.pbix file for this excercise
+  - In Report view, select continent to display map visualization. Select the map and add pct. of world populatin option in the query (right hand pane) to add visual by population within the map. any place related data will show up this visual.
+  - Create stacked column chart with continent and population (countried and population)
+  
+12.2 Arrange and Delete visuals
+
+  - use drag amd drop to arrange the visuals, minimize and maximize the charts
+  - delet on keyboard will delete the charts
+  
+12.3 Format visualization and apply theme
+
+  - Use Paint roller icon to add formatting changes
+  - select a chart and click format icon to get chart specific formatting options
+  - select Map visual, click format, select theme as arial, bubbles for pop size on map
+  - Switch theme option to chnage the default theme, colors on the visuals also change
+
+12.4 Create Text Visuals
+
+  - These are cards, multi-row cards, tables, and matrices  
+  - Create Multi-row matrix with country, percent of population, total population.
+  - total is added by default in Matrix 
+  - Add Card with population 
+  
+12.5 Chart Visualizations
+
+  - charts which has chart name in them.
+  - create stack chart using population and continent parameters
+  - 
+
+12.6 Use Slicers to Filter Visuals
+
+  - create slicer chart with same parameters. it has check boxes next to the continents. easy to show sliced amounts 
+  - it acts as a page level filter
+  
+12.7 Use Filters to filter reports and pages
+
+  - Add continent in filter fields and click lock icon to lock the visuals from selection/filtering for the clients
+  - you can filter on all pages and filter in one page
+  - basic filtering and advanced filtering for conditional filtering is allowed. 
+ 
+12.8 Add Search Capability and Q&A Visualization
+
+  - Create a Q&A visualization, looks like chat box icon 
+  - Expand the box to see the suggestions
+  - click on any suggestion to see the answers
+  - you can add your own question and answers too
+  - use back space to delete the suggested questions, other suggestion would appear. 
+  - underlined names are the fields available in the dataset
+
+12.9 Phone Layout
+
+  - View > Phone Layout 
+  - choose the charts you want to show and save.
+  
+
+13. Share the Files
+
+  - share as pbix files, you can also share datasets 
+  - go app.powerbi.com/ for checking the web version of your app. It has workspaces, reports etc. better than desktop version.
+  - associate web version with Microsoft Teams 
+  - To share, go to Report, select a report and click publish. Select the workspace from the list and click OK
+  - You can create a workspace. click New. You will need pro license though to create 
+  - Build permissions for a dataset: Go to webversion Workspace(doesnt work in desktop version), Select Dataset tab, select a dataset, click more option > Manage Permissions. Add user button to add new users and select allow permission for reshare and build data, if needed. 
+  - To connect to live connection, from dekstop version > Get Data > Power BI Dataset > pulls dataset from Power BI Service (webversion). This will help in collaboration between teams. 
+  -   
+
+
+
+
+
+
+
+
+
