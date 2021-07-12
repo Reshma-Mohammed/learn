@@ -14,3 +14,16 @@ Release Notes:
  - Check if all the items have defect/feature ID at the end
  - The Navigation path with 2 carats (_>>_) spaces before & after, and in Italics
  - 
+ 
+ 
+ 
+ DR  Samples
+ 
+25687405- IP Only
+25682486- IP Only
+
+25861842- IP and PIK
+25852878- PIK only (from interest)
+
+25048840- Commitment Increase
+25781293- Commitment Increase 

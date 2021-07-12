@@ -1,0 +1,28 @@
+Fundamental Analysis
+
+Investigating Ratios is really important 
+
+1. D/E - debt to equity ratio ; If a company has D/E <1, then its healthy 
+  formula: total debt/total equity
+  
+  Total equity = equity share capital + reserves & Surplus + preferred equity 
+  Total debt (liabilities) = short term debt + long term debt + 
+  
+  example ., Total equity of X = 2cr + 4cr = 6cr 
+             Total debt = 2cr + 1 cr = 3cr 
+			 D/E = 3/6 = 0.5 < 1 ----so good company 
+			 
+			 non current liabilities - long term liabilities
+			 current liabilities - short term liabilities
+ 
+2. Interest Coverage Ratio (ICR) = EBIDTA/Annual Interest Payout; if a company has ICR < 2, then is not a good company 
+
+    for example, ebidta = 4cr; and interest = annual interest payout (in balance sheet/financial report ) = 48 lakhs
+	ICR = 4cr/48laks = 8.3 
+	ICR upto 3 is a okay company not below that. 
+	
+3. Debt Service Coverage Ratio 
+   Tells if a company has the cpability to payout the total debt; should be between 1.5 - 2
+   DSCR = EBIDTA/Total Debt Service
+   for example 4cr/1.48 = 2.7 
+   
